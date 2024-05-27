@@ -3,26 +3,39 @@ Player Similarity Network of players in the MLS league
 
 
 Introduction
-The Player Similarity Network is a web application built using Dash, BeautifulSoup, pandas, scikit-learn, and plotly. The app scrapes data from FBref, processes it to calculate player statistics, and visualizes a network graph showing similarities between players based on their performance metrics.
+The Player Similarity Network is a web application built using Dash, BeautifulSoup, pandas, scikit-learn, and plotly.
+The app scrapes data from FBref, processes it to calculate player statistics, and visualizes a network graph showing similarities between players based on their performance metrics.
+
 Features
+
 •	Scrapes player statistics from multiple FBref pages.
+
 •	Processes and cleans the data.
+
 •	Groups players by their positions.
+
 •	Calculates per 90 minutes statistics.
+
 •	Generates a similarity matrix using cosine similarity.
+
 •	Creates and visualizes a network graph of player similarities.
+
 Installation
+
 To run the app, ensure you have Python installed and install the necessary packages:
+
 bash
 ------------------------------------------------------------------------------------------------------------------
 pip install requests pandas beautifulsoup4 scikit-learn numpy networkx plotly dash 
 ------------------------------------------------------------------------------------------------------------------
+
 Usage
 1.	Clone the repository:
 -------------------------------------------------------------------------------------------------------------------
 git clone https://github.com/yourusername/player-similarity-network.git
 cd player-similarity-network
 -------------------------------------------------------------------------------------------------------------------
+
 Run the app
 -------------------------------------------------------------------------------------------------------------------
 python app.py

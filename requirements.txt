@@ -1,0 +1,9 @@
+dash
+gunicorn
+requests
+pandas
+BeautifulSoup4
+scikit-learn
+numpy
+networkx
+plotly

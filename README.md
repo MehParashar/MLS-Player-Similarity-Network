@@ -22,29 +22,7 @@ Features
 
 Installation
 
-To run the app, ensure you have Python installed and install the necessary packages:
 
-bash
-------------------------------------------------------------------------------------------------------------------
-pip install requests pandas beautifulsoup4 scikit-learn numpy networkx plotly dash 
-------------------------------------------------------------------------------------------------------------------
-
-Usage
-1.	Clone the repository:
--------------------------------------------------------------------------------------------------------------------
-git clone https://github.com/yourusername/player-similarity-network.git
-cd player-similarity-network
--------------------------------------------------------------------------------------------------------------------
-
-Run the app
--------------------------------------------------------------------------------------------------------------------
-python app.py
--------------------------------------------------------------------------------------------------------------------
-
-3.	Open a web browser and go to http://127.0.0.1:8050 to view the app.
-
-Functions
-scrape_fbref_data(url)
 Scrapes data from the given FBref URL and returns a DataFrame.
 
 rename_duplicate_columns(df, suffix)
